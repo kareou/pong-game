@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#board{
+	background: rgb(78, 76, 76);
+}
+
+canvas{
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+.modal{
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.parrent{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.score {
+	display: flex;
+	justify-content: space-around;
+}
